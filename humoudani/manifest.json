@@ -1,0 +1,18 @@
+{
+    "name": "不毛谷",
+    "description": "新しいタブでUncyclopediaのおまかせページを開く拡張機能です。",
+    "version": "1.0",
+    "manifest_version": 2,
+    "icons": {
+    },
+    "chrome_url_overrides": {
+      "newtab": "newtab.html"
+    },
+    "permissions": [
+      "tabs"
+    ]
+    ,"content_security_policy": "script-src 'self' 'unsafe-eval' https://cdnjs.cloudflare.com; object-src 'self'"
+      
+      
+  }
+  
